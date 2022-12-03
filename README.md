@@ -1,3 +1,7 @@
+***TASK REPORT DEVREV ***
+
+
+
 Things that are done :
 Most of the backend stuff has been done like making Apis,connecting with the mongo Server . Here 3 things are left i.e person authentication and making a new center
 ,also checking whether the 10 persons have checked in ot not.
