@@ -1,0 +1,15 @@
+<% layout('layouts/boilerplate')%>
+    <h1>
+     Centers
+    </h1>
+    
+    <% for(let center of centers) {%>
+        <li>
+            <a href="centers/<%= center._id %>">
+                <%= center.vac_center_name %>, 
+            </a>
+            <a href ="center/"><%= center.city %></a>  
+        </li>
+        <% } %>
+            <a href="/center/new">Create New</a>
+            <a href="/centers">ALL Centers</a>

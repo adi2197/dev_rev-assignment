@@ -1,0 +1,16 @@
+<% layout('layouts/boilerplate')%>
+    <h1>
+        <%= center.vac_center_name %>
+    </h1>
+    <ul>
+        <li>City :<%= center.city %>
+        </li>
+        <li>Contact Number :<%= center.contact %>
+        </li>
+    </ul>
+    <a href="/centers">All Centers</a>
+    <a href="/centers/<%= center._id %>/edit ">EDIT</a>
+
+    <form action="/centers/<%= center._id %>?_method=DELETE" method="POST">
+        <button>DELETE</button>
+    </form>
